@@ -3,7 +3,7 @@
     <h1 alig="center">Hi👋, I'm Nicolas Londoño</h1>
     <h3 alig="center">Young man willing to improve in all aspects of life, with a
         values-focused education committed to give the best day to
-        To day, I really like technology and I am currently studying Computer Science at PUCMM University.</h3>
+        day, I really like technology and I am currently studying Computer Science at PUCMM University.</h3>
 </div>
 
 <div id="badges" align="center">
