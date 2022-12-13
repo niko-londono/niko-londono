@@ -7,5 +7,30 @@
 </div>
 
 <div id="badges" align="center">
-    <a href="https://img.shields.io/twitter/url?label=Nicolas%20Londo%C3%B1o&logo=linkedin&logoColor=blue&style=for-the-badge&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fnicolas-londo%C3%B1o-317336199%2F" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/nicolas-londoño-317336199/">
+        <img src="https://img.shields.io/twitter/url?label=Nicolas%20Londo%C3%B1o&logo=linkedin&logoColor=blue&style=for-the-               badge&url=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F"
+        alt="linkedin badge">
+    </a>
 </div>
+
+---
+
+<div align="left">
+    <h3>🔨 Languages and Tools:</h3> 
+    <div>
+        <img src="https://img.icons8.com/color/512/c-plus-plus-logo.png" title="C++" alt="C++" width="40" height="40">&nbsp;
+        <img src="https://img.icons8.com/fluency/512/c-programming.png" title="C" alt="C" width="40" height="40">&nbsp;
+        <img src="https://img.icons8.com/color/512/c-sharp-logo.png" title="Csharp" alt="Csharp" width="40" height="40">&nbsp;
+        <img src="https://img.icons8.com/color/512/python.png" title="Python" alt="Python" width="40" height="40">&nbsp;
+        <img src="https://img.icons8.com/color/512/html-5.png" title="HTML" alt="HTML" width="40" height="40">&nbsp;
+        <img src="https://img.icons8.com/color/512/css3.png" title="CSS" alt="CSS" width="40" height="40">&nbsp;
+        <img src="https://img.icons8.com/color/512/microsoft-sql-server.png" title="SQLserver" alt="SQLserver" width="40" height="40">&nbsp;
+    </div>
+</div>
+
+---
+### 📈 My Stats:
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=niko-londono&theme=dark&hide_border=true)](https://git.io/streak-stats)
+
+
+
