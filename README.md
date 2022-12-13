@@ -25,7 +25,7 @@
         <img src="https://img.icons8.com/color/512/html-5.png" title="HTML" alt="HTML" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/color/512/css3.png" title="CSS" alt="CSS" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/color/512/microsoft-sql-server.png" title="SQLserver" alt="SQLserver" width="40" height="40">&nbsp;
-        <img src="https://avatars.githubusercontent.com/u/1437874?s=280&v=4" title="Looker" alt="Looker" width="40" height="40">&nbsp;
+        <img src="https://avatars.githubusercontent.com/u/1437874?s=280&v=4" title="Looker Studio" alt="Looker Studio" width="40" height="40">&nbsp;
     </div>
 </div>
 
