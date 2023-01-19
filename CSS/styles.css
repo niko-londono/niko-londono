@@ -169,9 +169,9 @@ a:hover
 
   .Work{
     position: relative;
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
+    margin: 10% 10% 0% 50%;
+
   }
 
   .btn-work{
@@ -181,12 +181,12 @@ a:hover
     font-size: 14px;
     font-family: "montserrat";
     text-decoration: none;
-    margin: 30px 640px;
+    margin: 3% 25%;
     border: 2px solid #343a40;
-    padding: 14px 60px;
+    padding: 14px 100px;
     text-transform: uppercase;
     overflow: hidden;
-    transition: 1s all ease;
+    transition: 1s all ease; 
   }
   .btn-work::before{
     background: #343a40;
