@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="../My Site/sass/social.css">
     <link rel="shortcut icon" href="N.ico" type="image/x-icon">
     <link rel="icon" href="N.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" 
     rel="stylesheet">
-</head>
+</head>             
 <body>
     <div class="Top-container">        
         <h1 class="Titulo">I'm Nicolas</h1>
@@ -34,13 +35,12 @@
         <div class="skills">
           <h2>My Skills.</h2>
           <div class="skill">
-            <img src="https://img.icons8.com/color/512/c-plus-plus-logo.png" title="C++" alt="C++" width="40" height="40">&nbsp;
-            <img src="https://img.icons8.com/fluency/512/c-programming.png" title="C" alt="C" width="40" height="40">&nbsp;
-            <img src="https://img.icons8.com/color/512/c-sharp-logo.png" title="Csharp" alt="Csharp" width="40" height="40">&nbsp;
-            <img src="https://img.icons8.com/color/512/python.png" title="Python" alt="Python" width="40" height="40">&nbsp;
-            <img src="https://img.icons8.com/color/512/html-5.png" title="HTML" alt="HTML" width="40" height="40">&nbsp;
-            <img src="https://img.icons8.com/color/512/css3.png" title="CSS" alt="CSS" width="40" height="40">&nbsp;
-            <img src="https://img.icons8.com/color/512/microsoft-sql-server.png" title="SQLserver" alt="SQLserver" width="40" height="40">&nbsp;
+            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" title="C++" alt="C++" width="40" height="40">&nbsp;
+            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" title="Csharp" alt="Csharp" width="40" height="40">&nbsp;
+            <img src="https://cdn-icons-png.flaticon.com/512/3098/3098090.png" title="Python" alt="Python" width="40" height="40">&nbsp;
+            <img src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" title="HTML" alt="HTML" width="40" height="40">&nbsp;
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" title="CSS" alt="CSS" width="40" height="40">&nbsp;
+            <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" title="SQLserver" alt="SQLserver" width="40" height="40">&nbsp;
             <img src="https://avatars.githubusercontent.com/u/1437874?s=280&v=4" title="Looker Studio" alt="Looker Studio" width="40" height="40">&nbsp;                       
           </div>
 
@@ -64,19 +64,46 @@
         <div class="Work">
           <h2>My Work</h2>
           <a href="HTML/DA.html" class="btn-work Looker1" > Data analyst </a>
-          <a href="" class="btn-work btn2">AI</a> 
-          <a href="" class="btn-work btn3">Web dev</a> 
-          <!--<a href="" class="btn-work btn4">Hover Me</a> -->
+          <!-- <a href="" class="btn-work btn2">AI</a>  -->
+          <!-- <a href="" class="btn-work btn3">Web dev</a>  -->
+          <!--<a href="" class="btn-work btn4">Hover Me</a> -->          
         </div>
-
-        <div class="contact-me"> 
-          <p class="parrafo">This is a view of some of the projects I've worked on.</p>
-          <a class="btn" href="niko_londono@hotmail.com">CONTACT ME</a>
-        </div>    
+        <div class="Contact">
+          <h1>Contact me</h1>
+          <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit">Sumbit</button>
+            <div class="cv">
+              <a href="images/Nicolas Londoño Hernandez CV.pdf" download class="btn-work1 btn2">Download CV</a>
+            </div>
+            
+          </form> 
+        </div>
+  
         
     <div class="bottom-container">
-      <a href="https://www.linkedin.com/in/nicolas-londoño-317336199/"> Linkedin </a>        
-      <a href="https://github.com/niko-londono"> Github </a>        
+      
+      <div class="social-buttons">
+        <!-- <a href="#" class="social-button social-button--facebook" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a> -->
+        <a href="https://www.linkedin.com/in/nicolas-londoño-317336199/" class="social-button social-button--linkedin" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+          <span><img src="https://img.icons8.com/color/512/linkedin-2.png" alt="linkedin" width="40px"></span>
+        </a>
+        <!-- <a href="#" class="social-button social-button--snapchat" aria-label="Snapchat">
+          <i class="fab fa-snapchat-ghost"></i>
+        </a> -->
+        <a href="https://github.com/niko-londono" class="social-button social-button--github" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+          <span><img src="https://img.icons8.com/glyph-neue/512/github.png" alt="github" width="40px"></span>
+        </a>
+        <!-- <a href="#" class="social-button social-button--codepen" aria-label="CodePen">
+          <i class="fab fa-codepen"></i> 
+        </a> -->
+      </div>
       <p class="copyright">© Nicolas Londono Hernandez.</p>
     </div>
 
