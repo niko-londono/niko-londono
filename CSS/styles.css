@@ -44,13 +44,12 @@ h3
 
 hr
 {
-    border-style: dotted none none;
-    height: 0px;
-    border-color: gray;
-    border-width: 5px;
-    width: 10%;
-    margin: 7% auto 7%;
-
+  border-style: dotted none none;
+  height: 0px;
+  border-color: gray;
+  border-width: 5px;
+  width: 10%;
+  margin: 7% auto 7%;
 }
 
 a
@@ -68,7 +67,7 @@ a
     background-image: url(https://media.giphy.com/media/QTmfvHGklosY1ha87W/giphy.gif); /*cohete*/   
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 2% 15%; 
+    background-position: 2% 19%; 
     background-size: 70px;
 }
 
@@ -82,7 +81,7 @@ a
 {
     background: #dee2e6;
     padding: 1% 0;
-    margin-bottom: -4%;
+    margin-bottom: -10%;
 }
 
 #flechas
@@ -96,7 +95,7 @@ a
 {
     position:absolute;
     left: 20px;
-    top: 20px;
+    top: 60px;
 }
 
 .Titulo
@@ -144,7 +143,7 @@ a
 {
   position: relative;
   transform: translate(-50%,-50%); 
-  margin: 10% 10% 0% 50%;
+  margin: 20% 10% 0% 50%;
 }
 
 .Work{
@@ -167,12 +166,6 @@ a
   text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease; 
-}
-
-.cv
-{
-  margin-right: 70%;
-  margin-left: 0%;
 }
 
 .btn-work1{
@@ -249,38 +242,79 @@ a
   height: 380%;
 }
 
+/* contact */
+.Contact
+{
+  padding: 2%;
+  position: relative;
+  width: 96%;
+}
+.contact-titulo
+{
+  font-family: "montserrat";
+  font-size: 50px;
+  margin-top: 0;
+}
+.img-download
+{
+  width: 100px;
+  margin-top: 45px;
+  filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.4));
+}
 .contact-left
 {
-  flex-basis: 35%;
+  width: 30%;
+  height: 200px;
+  position: absolute;
+  margin-left: 13%;
 }
-
 .contact-right
 {
-  flex-basis: 60%;
+  width: 50%;
+  margin-left: 45%;
+}
+.cv
+{
+  position: relative;
+  margin-right: 30%;
+  margin-left: 30%;
 }
 
-.contact-left p
+form input, form textarea
 {
-  margin-top: 30px;
+  width: 75%;
+  border: 0;
+  outline: 0;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #1a1c25;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
 }
+/* contact */
 
 /* Boton de enviar */
 .button {
-  width: 300px;
-  height: 80px;
+  width: 200px;
+  height: 60px;
   background: dodgerblue;
   border-radius: 6px;
   transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+  margin: 0% 0% 0% 11%;
 }
 
 .button svg {
   transform: rotate(180deg);
   transition: all .5s;
+  padding-bottom: 30%;
+  width: 40px;
+  height: 20px;
 }
 
 .button__circle {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   background: mediumseagreen;
   border-radius: 50%;
   transform: rotate(-180deg);
@@ -294,5 +328,49 @@ a
   color: white;
   font-size: 2em;
   transition: all .9s;
+  padding-top: 6%;
 }
 /* Boton de enviar */
+
+/* NavBar */
+.Barra
+{
+  text-align: center;
+  padding-left: 35%;
+  background: rgb(255,255,255);
+  background: linear-gradient(75deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.1) 36%, rgba(255,255,255,0.1) 100%);
+  position: fixed;
+  width: 100%;
+  margin-top: -211px;
+  z-index: 999;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(255,255,255);
+  background: linear-gradient(75deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.1) 36%, rgba(255,255,255,0.1) 100%);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: #0aa7b3;
+}
+
+li a.active {
+  color: black;
+}
+/* NavBar */

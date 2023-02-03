@@ -68,7 +68,7 @@
 }
 .social-button--linkedin::after {
   background: rgb(21,133,219);
-background: linear-gradient(75deg, rgba(21,133,219,0.6) 0%, rgba(21,133,219,0.4) 36%, rgba(21,133,219,0.2) 100%);
+  background: linear-gradient(75deg, rgba(21,133,219,0.6) 0%, rgba(21,133,219,0.4) 36%, rgba(21,133,219,0.2) 100%);
 }
 .social-button--github {
   color: #6e5494;

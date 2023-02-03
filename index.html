@@ -16,80 +16,94 @@
     rel="stylesheet">
 </head>             
 <body>
-    <div class="Top-container">        
-        <h1 class="Titulo">I'm Nicolas</h1>
-        <img src="https://media.giphy.com/media/l24FUBYKfNkTa3QEL9/giphy.gif" id = "flechas" width="50">
-        <img src="https://media.giphy.com/media/lVTLaes1MItuXLzfrW/giphy.gif" id = "nube" width="100">
-        <p class="SubTitulo">a computer science engineer.</p>        
-        <video class="video" src="images/animacion_media.mp4" autoplay playinline loop muted preload="auto" width="550px"></video>
+    <div class="Top-container" id="Top-container">      
+      <div class="Barra">
+        <ul>
+            <li><a class="active" href="#Top-container">Nicolas</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#MyWork">My Work</a></li>
+            <li><a href="#ContactMe">Contact Me</a></li>
+        </ul>
+     </div>        
+      <h1 class="Titulo">I'm Nicolas</h1>
+      <img src="https://media.giphy.com/media/l24FUBYKfNkTa3QEL9/giphy.gif" id = "flechas" width="50">
+      <img src="https://media.giphy.com/media/lVTLaes1MItuXLzfrW/giphy.gif" id = "nube" width="100">
+      <p class="SubTitulo">a computer science engineer.</p>        
+      <video class="video" src="images/animacion_media.mp4" autoplay playinline loop muted preload="auto" width="550px"></video>
     </div>
 
     <div class="middle-container">
-        <div class="profile">
-          <img src="images/niko.png" id = "nicolas" alt="Nicolas" width="150px">
-          <h2>Hi.</h2>
-          <p class="parrafo">Young man willing to improve in all aspects of life, with a values-focused education committed to give the best day to day,
-            I really like technology and I am currently studying Computer Science at PUCMM University.</p>
+      <div class="profile">
+        <img src="images/niko.png" id = "nicolas" alt="Nicolas" width="150px">
+        <h2>Hi.</h2>
+        <p class="parrafo">Young man willing to improve in all aspects of life, with a values-focused education committed to give the best day to day,
+          I really like technology and I am currently studying Computer Science at PUCMM University.</p>
+      </div>
+      <hr>
+      <div class="skills" id="skills">
+        <h2>My Skills.</h2>
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" title="C++" alt="C++" width="40" height="40">&nbsp;
+          <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" title="Csharp" alt="Csharp" width="40" height="40">&nbsp;
+          <img src="https://cdn-icons-png.flaticon.com/512/3098/3098090.png" title="Python" alt="Python" width="40" height="40">&nbsp;
+          <img src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" title="HTML" alt="HTML" width="40" height="40">&nbsp;
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" title="CSS" alt="CSS" width="40" height="40">&nbsp;
+          <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" title="SQLserver" alt="SQLserver" width="40" height="40">&nbsp;
+          <img src="https://avatars.githubusercontent.com/u/1437874?s=280&v=4" title="Looker Studio" alt="Looker Studio" width="40" height="40">&nbsp;                       
         </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill">
-            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" title="C++" alt="C++" width="40" height="40">&nbsp;
-            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" title="Csharp" alt="Csharp" width="40" height="40">&nbsp;
-            <img src="https://cdn-icons-png.flaticon.com/512/3098/3098090.png" title="Python" alt="Python" width="40" height="40">&nbsp;
-            <img src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" title="HTML" alt="HTML" width="40" height="40">&nbsp;
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" title="CSS" alt="CSS" width="40" height="40">&nbsp;
-            <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" title="SQLserver" alt="SQLserver" width="40" height="40">&nbsp;
-            <img src="https://avatars.githubusercontent.com/u/1437874?s=280&v=4" title="Looker Studio" alt="Looker Studio" width="40" height="40">&nbsp;                       
-          </div>
 
-          <h2 style="margin-top: 100px">Studies.</h2>
+        <h2 style="margin-top: 100px">Studies.</h2>
 
-          <div class="loyola">
-            <img src="https://media.giphy.com/media/DT4T412QcU0XNSiFYT/giphy.gif" id = "lineas-studies" width="95">                         
-            <img src="http://loyola.edu.do/014014/wp-content/uploads/2018/01/logoweb-1.png" title="Colegio Loyola" alt="Colegio Loyola" width="40" height="40">            
-            <p>Bachiller Distinguido en Matemáticas y Tecnología</p>
-            <p><em>ago. 2016 - jun. 2020</em></p>
-          </div>
-
-          <div class="PUCMM">                        
-            <img src="https://www.pucmm.edu.do/recursos/PublishingImages/Paginas/logos/Logo%20PUCMM%20%28Color%29.png" title="PUCMM" alt="PUCMM" width="40" height="40">
-            <p>Ingeniería, Ciencias de la computación</p>
-            <p><em>sept. 2020 - sept. 2024</em></p>
-          </div>
+        <div class="loyola">
+          <img src="https://media.giphy.com/media/DT4T412QcU0XNSiFYT/giphy.gif" id = "lineas-studies" width="95">                         
+          <img src="http://loyola.edu.do/014014/wp-content/uploads/2018/01/logoweb-1.png" title="Colegio Loyola" alt="Colegio Loyola" width="40" height="40">            
+          <p>Bachiller Distinguido en Matemáticas y Tecnología</p>
+          <p><em>ago. 2016 - jun. 2020</em></p>
         </div>
-        <hr>
 
-        <div class="Work">
-          <h2>My Work</h2>
-          <a href="HTML/DA.html" class="btn-work Looker1" > Data analyst </a>
-          <!-- <a href="" class="btn-work btn2">AI</a>  -->
-          <!-- <a href="" class="btn-work btn3">Web dev</a>  -->
-          <!--<a href="" class="btn-work btn4">Hover Me</a> -->          
+        <div class="PUCMM">                        
+          <img src="https://www.pucmm.edu.do/recursos/PublishingImages/Paginas/logos/Logo%20PUCMM%20%28Color%29.png" title="PUCMM" alt="PUCMM" width="40" height="40">
+          <p>Ingeniería, Ciencias de la computación</p>
+          <p><em>sept. 2020 - sept. 2024</em></p>
         </div>
-        <div class="Contact">
-          <h1>Contact me</h1>
+      </div>
+      <hr>
+      
+      <div class="Work" id="MyWork">
+        <h2>My Work</h2>
+        <a href="HTML/DA.html" class="btn-work Looker1" > Data analyst </a>
+        <a href="" class="btn-work btn2">Web Development</a>
+        <!-- <a href="" class="btn-work btn2">Web dev</a>  -->
+        <!--<a href="" class="btn-work btn4">Hover Me</a> -->          
+      </div>
+
+      <hr>
+
+      <div class="Contact" id="ContactMe">        
+        <div class="contact-left">
+          <h1 class="contact-titulo">Contact me</h1>
+          <div class="cv">
+            <a href="images/Nicolas Londoño Hernandez CV.pdf" download class="btn-work1 btn3">Download CV</a>              
+          </div> 
+          <img src="https://media.giphy.com/media/C7NfqF2szU5L4wePXu/giphy.gif" alt="imagen" class="img-download">
+        </div>
+        <div class="contact-right">
           <form>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="name" placeholder="Your Name" required> <br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-            <button type="submit">Sumbit</button>
-            <div class="cv">
-              <a href="images/Nicolas Londoño Hernandez CV.pdf" download class="btn-work1 btn2">Download CV</a>
-            </div>
-
-            <!-- <div class="button">
+            <div class="button">
               <div class="container">
                 <div class="tick">
                 </div>
               </div>
-            </div> -->
-            
+            </div>           
           </form> 
         </div>
-  
-        
+      </div>
+      <img src="https://media.giphy.com/media/en3tlt8NPUjcl81a35/giphy.gif" alt="imagen" width="113">
+    </div>
+
     <div class="bottom-container">
       
       <div class="social-buttons">
@@ -98,8 +112,9 @@
         </a> -->
         <a href="https://www.linkedin.com/in/nicolas-londoño-317336199/" class="social-button social-button--linkedin" aria-label="LinkedIn">
           <i class="fab fa-linkedin-in"></i>
-          <span><img src="https://img.icons8.com/color/512/linkedin-2.png" alt="linkedin" width="40px"></span>
+          <span class="img-linkedin"><img src="https://img.icons8.com/color/512/linkedin-2.png" alt="linkedin" width="40px"></span>
         </a>
+        
         <!-- <a href="#" class="social-button social-button--snapchat" aria-label="Snapchat">
           <i class="fab fa-snapchat-ghost"></i>
         </a> -->
