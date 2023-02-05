@@ -1,9 +1,10 @@
 body
 {
-    margin: 0px;
-    /*background: #F5F5F5;*/
-    text-align: center;
-    font-family: 'Merriweather', serif;
+  margin: 0px;
+  /*background: #F5F5F5;*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #e9ecef;
 }
 
 p
@@ -23,14 +24,14 @@ h1
 {
     color: #343a40;
     margin-top: 80px;
-    font-family: 'Sacramento', cursive;
+    font-family: 'montserrat', cursive;
     font-size: 500%;
 }
 
 h2
 {
     color: #343a40;
-    font-family: 'Sacramento', cursive;
+    font-family: 'montserrat', cursive;
     font-size: 187.5%;
     padding-bottom: 10px;
 }
@@ -38,7 +39,7 @@ h2
 h3
 {
     color: #343a40;
-    font-family: 'Sacramento', cursive;
+    font-family: 'montserrat', cursive;
     font-size: 125%;
 }
 
@@ -100,12 +101,13 @@ a
 
 .Titulo
 {
-    margin-bottom: 0%;
+  margin-bottom: 0%;
+  font-family: 'sacramento', cursive;
 }
 
 .SubTitulo
 {
-    margin-top: 0%;
+  margin-top: 0%;    
 }
 
 .loyola
@@ -143,14 +145,13 @@ a
 {
   position: relative;
   transform: translate(-50%,-50%); 
-  margin: 20% 10% 0% 50%;
 }
 
 .Work{
   position: relative;
-  transform: translate(-50%,-50%); 
-  margin: 10% 10% 0% 50%;
-
+  transform: translate(-50%,-50%);
+  width: 60%;
+  margin-left: 20%;
 }
 
 .btn-work{
@@ -291,6 +292,11 @@ form input, form textarea
   color: white;
   font-size: 18px;
   border-radius: 6px;
+}
+
+.img-bottom
+{
+  margin-top: 3%;
 }
 /* contact */
 

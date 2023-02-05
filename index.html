@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../My Site/sass/social.css">
     <link rel="shortcut icon" href="N.ico" type="image/x-icon">
     <link rel="icon" href="N.ico" type="image/x-icon">
@@ -33,14 +34,14 @@
     </div>
 
     <div class="middle-container">
-      <div class="profile">
+      <div class="profile" data-aos="fade-right">
         <img src="images/niko.png" id = "nicolas" alt="Nicolas" width="150px">
         <h2>Hi.</h2>
         <p class="parrafo">Young man willing to improve in all aspects of life, with a values-focused education committed to give the best day to day,
           I really like technology and I am currently studying Computer Science at PUCMM University.</p>
       </div>
       <hr>
-      <div class="skills" id="skills">
+      <div class="skills" id="skills" data-aos="fade-left">
         <h2>My Skills.</h2>
         <div class="skill">
           <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" title="C++" alt="C++" width="40" height="40">&nbsp;
@@ -54,14 +55,14 @@
 
         <h2 style="margin-top: 100px">Studies.</h2>
 
-        <div class="loyola">
+        <div class="loyola" data-aos="fade-right">
           <img src="https://media.giphy.com/media/DT4T412QcU0XNSiFYT/giphy.gif" id = "lineas-studies" width="95">                         
           <img src="http://loyola.edu.do/014014/wp-content/uploads/2018/01/logoweb-1.png" title="Colegio Loyola" alt="Colegio Loyola" width="40" height="40">            
           <p>Bachiller Distinguido en Matemáticas y Tecnología</p>
           <p><em>ago. 2016 - jun. 2020</em></p>
         </div>
 
-        <div class="PUCMM">                        
+        <div class="PUCMM" data-aos="fade-left">                        
           <img src="https://www.pucmm.edu.do/recursos/PublishingImages/Paginas/logos/Logo%20PUCMM%20%28Color%29.png" title="PUCMM" alt="PUCMM" width="40" height="40">
           <p>Ingeniería, Ciencias de la computación</p>
           <p><em>sept. 2020 - sept. 2024</em></p>
@@ -69,7 +70,7 @@
       </div>
       <hr>
       
-      <div class="Work" id="MyWork">
+      <div class="Work" id="MyWork" data-aos="fade-right">
         <h2>My Work</h2>
         <a href="HTML/DA.html" class="btn-work Looker1" > Data analyst </a>
         <a href="" class="btn-work btn2">Web Development</a>
@@ -79,7 +80,7 @@
 
       <hr>
 
-      <div class="Contact" id="ContactMe">        
+      <div class="Contact" id="ContactMe" data-aos="fade-left">        
         <div class="contact-left">
           <h1 class="contact-titulo">Contact me</h1>
           <div class="cv">
@@ -101,12 +102,12 @@
           </form> 
         </div>
       </div>
-      <img src="https://media.giphy.com/media/en3tlt8NPUjcl81a35/giphy.gif" alt="imagen" width="113">
+      <img src="https://media.giphy.com/media/en3tlt8NPUjcl81a35/giphy.gif" alt="imagen" width="113" class="img-bottom">
     </div>
 
     <div class="bottom-container">
       
-      <div class="social-buttons">
+      <div class="social-buttons" data-aos="zoom-out-left">
         <!-- <a href="#" class="social-button social-button--facebook" aria-label="Facebook">
           <i class="fab fa-facebook-f"></i>
         </a> -->
@@ -129,6 +130,12 @@
       <p class="copyright">© Nicolas Londono Hernandez.</p>
     </div>
     <script src="./js/MySite.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:950
+      });
+    </script>
 </body>
 
 </html>           
