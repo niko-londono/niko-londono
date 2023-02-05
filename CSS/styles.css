@@ -298,6 +298,12 @@ form input, form textarea
 {
   margin-top: 3%;
 }
+
+.boton-enviarFormulario
+{
+  margin-right: 61%;
+  border: none;
+}
 /* contact */
 
 /* Boton de enviar */

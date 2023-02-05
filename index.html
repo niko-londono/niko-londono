@@ -89,16 +89,18 @@
           <img src="https://media.giphy.com/media/C7NfqF2szU5L4wePXu/giphy.gif" alt="imagen" class="img-download">
         </div>
         <div class="contact-right">
-          <form>
-            <input type="text" name="name" placeholder="Your Name" required> <br>
-            <input type="email" name="email" placeholder="Your Email" required><br>
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required> <br>
+            <input type="email" name="Email" placeholder="Your Email" required><br>
             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-            <div class="button">
-              <div class="container">
-                <div class="tick">
+            <button type="submit" class="boton-enviarFormulario">
+              <div class="button">
+                <div class="container">
+                  <div class="tick">
+                  </div>
                 </div>
               </div>
-            </div>           
+            </button>           
           </form> 
         </div>
       </div>
@@ -129,15 +131,28 @@
       </div>
       <p class="copyright">© Nicolas Londono Hernandez.</p>
     </div>
+    <!-- js -->
     <script src="./js/MySite.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Transiciones -->
     <script>
       AOS.init({
         duration:950
       });
     </script>
+    <!-- Formulario de contacto -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyx4nwwZ1YYlkV8fBzIJ7V7WgKT6meDJ7NJTDXZk8TVah86RpVwA5nKwtbQ5IybmNPD/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
 </body>
-
 </html>           
 
 
