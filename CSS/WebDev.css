@@ -6,7 +6,7 @@ body
 }
 .container-fluid
 {
-    position: absolute;
+    position: relative;
     height: 600px;
     padding-right: 100%;
     left: 0;
@@ -36,4 +36,11 @@ body
 {
     padding-top: 20px;
     color: #07599c;
+}
+
+.paginas
+{
+    position: relative;
+    padding-top: 10%;
+    text-align: center;
 }

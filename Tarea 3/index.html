@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./imagenes 3/icons8-música-48.png">
+    <!-- font awesome (iconos) -->
+    <script src="https://kit.fontawesome.com/384d707e25.js" crossorigin="anonymous"></script>
+    <!-- transiciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Music</title>
+</head>
+<body>
+    <main>
+        <aside class="aside-left" data-aos="fade-right">
+            <img src="./imagenes 3/icons8-música-48.png" alt="Musica" class="musica">
+            <img src="https://media.giphy.com/media/l0ttyZxdXWlIaEbxhx/giphy.gif" alt="Musica" class="partitura">
+            <div class="home">
+            </div>
+            <div class="botones">
+                <button class="btn home"><i class="fa-solid fa-house btn-img"></i>home</button>
+                <button class="btn categories"><i class="fa-solid fa-record-vinyl btn-img"></i>genero</button>
+                <button class="btn playlist"><i class="fa-solid fa-music btn-img"></i>playlist</button>
+                <button class="btn settings"><i class="fa-solid fa-gear btn-img confi"></i>settings</button>
+            </div>
+        </aside>
+    
+        <header>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass buscar-img fa-beat fa-flip" style="--fa-animation-duration: 3s;"></i>
+                <input type="text" placeholder="Search..." class="search-bar">
+                <a href="./html/DarkMode.html">
+                    <button class="circulo dark-mode"><i class="fa-solid fa-circle-half-stroke dark-light"></i></button>
+                </a>
+                <button class="circulo bell"><i class="fa-solid fa-bell campanita-img"></i></button>
+                <button class="circulo"><i class="fa-solid fa-heart corazon-img"></i></button>
+                <div class="dropdown">  
+                    <span class="nombre"><i class="fa-solid fa-right-to-bracket login"></i>Nicolas</span>
+                    <div class="dropdown-content">
+                        <a href="./html/Gaby.html"><button class="btn-ddl">Gaby</button> <br></a>
+                        <a href="./html/vaicens.html"><button class="btn-ddl">Vaicens</button> <br></a>
+                        <a href="./html/Angel.html"><button class="btn-ddl">Angel</button></a>                      
+                    </div>                    
+                </div>        
+        </header>
+    
+        <section>
+            <div class="titulo">
+                <h1>For you page</h1>
+                <h5 class="titulo-derecha">view all</h5>
+            </div>  
+            <article class="canciones">
+                <div class="cancion1">
+                    <img src="./imagenes 3/Entre nosotros Remix.jpg" alt="imagen" class="cancion1-img entre-nosotros">
+                    <h1 class="cancion1-titulo">Entre Nosotros (Remix)</h1>
+                    <h4 class="cancion1-subtitulo">Tiago PZK, LIT killah, Maria Becarra, Nicki nicole</h4>
+                    <audio src="./audio/y2mate.com - Tiago PZK LIT killah Maria Becerra Nicki Nicole  Entre Nosotros REMIX Video Oficial_320kbps.mp3" controls class="Cancion1-rola"></audio>
+                </div>
+                <div class="cancion1">
+                    <img src="./imagenes 3/LA INOCENTE.jpg" alt="imagen" class="cancion1-img entre-nosotros">
+                    <h1 class="cancion1-titulo">LA INOCENTE</h1>
+                    <h4 class="cancion1-subtitulo">Mora, Feid</h4>
+                    <audio src="./audio/y2mate.com - Mora Feid  LA INOCENTE Letras_320kbps.mp3" controls class="Cancion1-rola"></audio>
+                </div>
+                <div class="cancion1">
+                    <img src="./imagenes 3/Hold the line.jpg" alt="imagen" class="cancion1-img entre-nosotros">
+                    <h1 class="cancion1-titulo">Hold the Line </h1>
+                    <h4 class="cancion1-subtitulo">TOTO</h4>
+                    <audio src="./audio/y2mate.com - Toto  Hold the line With Lyrics_320kbps.mp3" controls class="Cancion1-rola"></audio>
+                </div>
+        
+            </article>
+        
+            <div class="reproductor" data-aos="fade-left">
+                <img src="./imagenes 3/bohemiamPanic.jpg" alt="panic" class="reproductor-img panic">
+                <h1 class="cancion-vinilo titulo">Bohemian Rhapsody</h1>
+                <h4 class="cancion-vinilo subtitulo">Panic! At The Disco</h4>
+                <img src="https://media.giphy.com/media/H1S50VxNsZlUdG8giI/giphy.gif" alt="vinilo" class="vinilo">
+                <audio src="./audio/y2mate.com - Panic At The Disco  Bohemian Rhapsody from Suicide Squad The Album Official Audio_320kbps.mp3" controls class="rola"></audio>
+                <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" class="equalizador" width="256px" height="69px" viewBox="0 0 128 44" xml:space="preserve"><rect x="0" y="0" width="100%" height="100%" fill="#FFFFFF" /><g><path fill="#000000" d="M-80.265.241h8.122A1.951,1.951,0,0,1-70.18,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939h-8.122a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1-80.265.241Zm16.468,0h8.122A1.951,1.951,0,0,1-53.712,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939H-63.8a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1-63.8.241Zm16.468,14.6h8.122a1.951,1.951,0,0,1,1.963,1.939V41.845a1.951,1.951,0,0,1-1.963,1.939h-8.122a1.951,1.951,0,0,1-1.963-1.939V16.784A1.951,1.951,0,0,1-47.329,14.845Zm16.468,15.728h8.122a1.951,1.951,0,0,1,1.963,1.939v9.333a1.951,1.951,0,0,1-1.963,1.939h-8.122a1.951,1.951,0,0,1-1.963-1.939V32.512A1.951,1.951,0,0,1-30.861,30.573Zm16.655-15.728h8.122a1.951,1.951,0,0,1,1.963,1.939V41.845a1.951,1.951,0,0,1-1.963,1.939h-8.122a1.951,1.951,0,0,1-1.963-1.939V16.784A1.951,1.951,0,0,1-14.206,14.845ZM2.074,0.241H10.2A1.951,1.951,0,0,1,12.159,2.18V41.845A1.951,1.951,0,0,1,10.2,43.784H2.074A1.951,1.951,0,0,1,.112,41.845V2.18A1.951,1.951,0,0,1,2.074.241Zm16.655,0h8.122A1.951,1.951,0,0,1,28.814,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939H18.729a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1,18.729.241Zm16.468,0h8.122A1.951,1.951,0,0,1,45.282,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939H35.2a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1,35.2.241Zm16.377,0H59.7A1.951,1.951,0,0,1,61.659,2.18V41.845A1.951,1.951,0,0,1,59.7,43.784H51.574a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1,51.574.241Zm16.655,0h8.122A1.951,1.951,0,0,1,78.314,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939H68.229a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1,68.229.241Zm16.468,0h8.122A1.951,1.951,0,0,1,94.782,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939H84.7a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1,84.7.241Zm16.532,0h8.122a1.951,1.951,0,0,1,1.963,1.939V41.845a1.951,1.951,0,0,1-1.963,1.939h-8.122a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1,101.229.241Zm16.468,0h8.122a1.951,1.951,0,0,1,1.963,1.939V41.845a1.951,1.951,0,0,1-1.963,1.939H117.7a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1,117.7.241Zm-230.962,0h8.122A1.951,1.951,0,0,1-103.18,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939h-8.122a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1-113.265.241Zm16.468,0h8.122A1.951,1.951,0,0,1-86.712,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939H-96.8a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1-96.8.241Zm-49.468,0h8.122A1.951,1.951,0,0,1-136.18,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939h-8.122a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1-146.265.241Zm16.468,0h8.122a1.951,1.951,0,0,1,1.963,1.939V41.845a1.951,1.951,0,0,1-1.963,1.939H-129.8a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1-129.8.241Zm-49.468,0h8.122A1.951,1.951,0,0,1-169.18,2.18V41.845a1.951,1.951,0,0,1-1.963,1.939h-8.122a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1-179.265.241Zm16.468,0h8.122a1.951,1.951,0,0,1,1.963,1.939V41.845a1.951,1.951,0,0,1-1.963,1.939H-162.8a1.951,1.951,0,0,1-1.963-1.939V2.18A1.951,1.951,0,0,1-162.8.241Z"/><animateTransform attributeName="transform" type="translate" values="16.5 0;33 0;49.5 0;66 0;82.5 0;99 0;115.5 0;132 0;148.5 0;165 0;181.5 0" calcMode="discrete" dur="1350ms" repeatCount="indefinite"/></g></svg>
+            </div> 
+        </section>
+    
+        <footer>
+            <div class="informacion" data-aos="fade-right">
+                <h1 class="footer-titulo">Music</h1>
+                <h3>pueden seguirnos en nuestras redes sociales</h3>
+            </div>
+            <div class="redes">
+                <button class="btn-footer" name="instagram" alt="instagram"><i class="fa-brands fa-instagram"></i></button>
+                <button class="btn-footer" name="facebook" alt="facebook"><i class="fa-brands fa-facebook"></i></button>
+                <button class="btn-footer" name="twitter" alt="twitter"><i class="fa-brands fa-twitter"></i></button>            
+            </div>
+            <p class="copy">© Nicolas Londono Hernandez.</p>
+        </footer>
+    </main>
+    <div class="loader">
+        <div class="circle"><img src="./imagenes 3/icons8-música-48.png" width="40" class="circle-img"> </div>
+    </div>
+
+    <!-- Transiciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        duration:900
+        });
+    </script>
+
+    <script src="./js/java.js"></script>
+</body>
+</html>

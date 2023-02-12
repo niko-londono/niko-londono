@@ -1,0 +1,472 @@
+*
+{
+    font-family: 'Montserrat';
+    margin: 0%;
+}
+body
+{
+    overflow-x: hidden;
+    min-width: 1470px;
+}
+
+section
+{
+    margin-bottom: 20%;
+}
+
+.aside-left
+{
+    padding: 1%;
+    position: absolute;
+    background-color: #eceff8;
+    border-radius: 10px;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+.confi
+{
+    transition: 0.3s;
+}
+.confi:hover
+{
+    transform: rotate(1turn);
+}
+
+.partitura
+{
+    position: absolute;
+    width: 98%;
+    top: 5%;
+    left: 2%;
+}
+
+.botones
+{
+    position: relative;
+    top: 15%;
+}
+
+.btn
+{
+    position: relative;
+    padding: 5%;
+    margin: 20%;
+    border: none;
+    background-color: #eceff8;
+    color: #a6a8b5;
+    height: 75px;
+    width: 50%;
+    border-radius: 10px;
+    color: #a6a8b5;
+    cursor: pointer;
+}
+.btn:hover
+{
+    color: #e48780;
+    border-radius: 10px;
+}
+.btn-img
+{
+    font-size: 40px;
+    transition: .1s;
+}
+.btn-img:hover
+{
+    font-size: 50px;
+}
+
+header
+{
+    position: relative;
+    margin-left: 13%;
+}
+
+footer
+{
+    position: absolute;
+    background-color: #a6a8b5;
+    width: 100%;
+    height: 40%;
+    top: 100%;
+}
+
+.search-box
+{
+    margin-top: 10px;
+}
+
+.search-bar
+{
+    padding: 1%;
+    width: 60%;
+    height: 30px;
+    margin-left: 5%;
+    background-color: #eae7f0;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.search-bar:hover
+{
+    background-color: #f8e0de;
+}
+
+.buscar-img
+{
+    position: absolute;
+    font-size: 25px;
+    top: 25%;
+    left: 2%;
+    color: #a6a8b5;
+}
+
+.circulo
+{
+    border-radius: 100%;
+    border: none;
+    background-color: #eae7f0;
+    color: #a6a8b5;
+    font-size: 20px;
+    margin-left: 1%;
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.bell
+{
+    margin-left: 6%;
+}
+
+.circulo:hover
+{
+    color: #e48780;
+    background-color: #eceff8;
+}
+
+#usuario
+{
+    border-radius: 30px;
+    border: none;
+    font-size: large;
+}
+
+/* dropdown list */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 2%;
+    width: 110px;
+    height: 50px;
+    background-color: #eae7f0;
+    text-align: center;
+    border-radius: 10px;
+}
+.dropdown:hover
+{
+    background-color: #f0d6d4;
+}
+
+.login
+{
+    padding-right: 10px;
+    color: #a6a8b5;
+    padding-top: 14px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    min-height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.btn-ddl
+{
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.btn-ddl:hover
+{
+    background-color: #e48780;
+    width: 100%;
+}
+
+/* pagina principal */
+.titulo
+{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 16%;
+    display: flex;
+}
+
+.titulo-derecha
+{
+    padding-left: 455px;
+    padding-top: 20px;
+    color: #a6a8b5;
+
+}
+/* reproductor */
+.reproductor
+{
+    position: absolute;
+    right: 1%;
+    top: 27%;
+    background-color: #f7f4f4;
+    width: 33%;
+    height: 70%;
+    display: flex;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.vinilo
+{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    padding-left: 29%;
+    padding-top: 28%;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+
+.rola
+{
+    position: absolute;
+    margin-top: 70%;
+    padding-left: 20%;
+}
+
+.equalizador
+{
+    position: relative;
+    top: 85%;
+    right: 35%;
+}
+
+.reproductor-img
+{
+    border-radius: 40px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 5%;
+}
+
+.cancion1-img
+{
+    border-radius: 20px;
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 3%;
+    top: 11%;
+}
+
+.cancion1-titulo
+{
+    padding-left: 22%;
+    padding-top: 3%;
+    color: #464545;
+}
+
+.cancion1-subtitulo
+{
+    padding-top: 2%;
+    padding-left: 22%;
+    color: #a6a8b5;
+}
+.cancion1-subtitulo:hover
+{
+    color: black;
+}
+
+.Cancion1-rola
+{
+    padding-top: 1%;
+    padding-left: 57%;
+}
+
+.cancion-vinilo
+{
+    position: absolute;
+}
+
+.reproductor .titulo
+{
+    left: 15%;
+    color: #464545;
+}
+.reproductor .subtitulo
+{
+    top: 12%;
+    left: 31%;
+    color: #a6a8b5;
+}
+
+/* footer */
+.informacion
+{
+    margin-top: 5%;
+    text-align: center;
+    color: #4f5053;
+    padding-bottom: 2%;
+}
+
+.footer-titulo
+{
+    padding-bottom: 2%;
+    color: #464545;
+}
+
+.redes
+{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.btn-footer
+{
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn-footer:hover
+{
+    background-color: #4f5053;
+    color: #e48780;
+    cursor: pointer;
+}
+
+.copy
+{
+    text-align: center;
+}
+
+/* canciones */
+
+.cancion1
+{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    margin: 1%;
+}
+.cancion1:hover
+{
+    background-color: #f0d6d4;
+    transition: 0.4s;
+}
+
+.canciones
+{
+    position: relative;
+    width: 49%;
+    height: 510px;
+    display: flex;
+    margin-left: 14%;
+    margin-top: 1%;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+/* loader */
+.loader,
+.loader-pages {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 2;
+  animation: hide 2.5s linear;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  /* background-color: #000000; */
+  border-radius: 50px;
+  animation: loading 2.75s ease-in-out;
+  text-align: center;
+  justify-content: center;
+}
+
+.circle-img
+{
+    position: relative;
+    margin-top: 30%;
+}
+
+/* Keyframes */
+
+@keyframes dropdown {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hide {
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(2);
+  }
+  40% {
+    transform: scale(1.5);
+  }
+  60% {
+    transform: scale(2);
+  }
+  80% {
+    transform: scale(1.5);
+  }
+  95% {
+    background-color: #ed3675;
+    opacity: 1;
+  }
+  100% {
+    background-color: transparent;
+    transform: scale(500);
+    opacity: 0;
+  }
+}
