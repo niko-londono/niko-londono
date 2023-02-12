@@ -5,6 +5,7 @@ body
   text-align: center;
   font-family: 'Merriweather', serif;
   background-color: #e9ecef;
+  overflow-x: hidden;
 }
 
 p
@@ -308,8 +309,8 @@ form input, form textarea
 
 /* Boton de enviar */
 .button {
-  width: 200px;
-  height: 60px;
+  width: 170px;
+  height: 55px;
   background: dodgerblue;
   border-radius: 6px;
   transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
@@ -330,6 +331,7 @@ form input, form textarea
   background: mediumseagreen;
   border-radius: 50%;
   transform: rotate(-180deg);
+  margin-right: 100px;
 }
 
 .button:hover {

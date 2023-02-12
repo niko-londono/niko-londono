@@ -1,0 +1,39 @@
+body
+{
+    margin: 0 50%;
+    text-align: center;
+    overflow-x: hidden;
+}
+.container-fluid
+{
+    position: absolute;
+    height: 600px;
+    padding-right: 100%;
+    left: 0;
+    background-image: url(../images/wallhaven-7318pv.png);
+    background-position-y: center;
+    background-position-x: center;
+    background-size:130rem;
+}
+
+.contenedor
+{
+    font-family: 'Montserrat';
+    position: absolute;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 0 auto;
+    height: 90px;
+    width: 600px;
+    text-align: center;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+    left: 0;
+    right: 0;
+    top: 565px;
+}
+
+.contenedor h1
+{
+    padding-top: 20px;
+    color: #07599c;
+}

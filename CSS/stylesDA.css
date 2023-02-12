@@ -1,7 +1,7 @@
 .uno
 {
     margin: 1%;
-    border-radius: 2%;
+    border-radius: 30px;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,236,235,1) 35%, rgba(154,164,166,1) 100%);
     text-align: center;
@@ -162,3 +162,7 @@ a
 	left: 20px;
 }
 
+.tituloDA
+{
+    font-family: 'Montserrat';
+}
