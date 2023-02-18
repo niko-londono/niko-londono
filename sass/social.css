@@ -65,15 +65,17 @@
 .social-button--linkedin {
   color: #0077b5;
 }
-.social-button--linkedin::after {
-  background: #0077b5;
-}
+/* .social-button--linkedin::after {
+  background: rgb(0,119,181);
+  background: radial-gradient(circle, rgba(0,119,181,1) 0%, rgba(0,119,181,1) 100%);
+} */
 .social-button--github {
   color: #6e5494;
 }
-.social-button--github::after {
-  background: #6e5494;
-}
+/* .social-button--github::after {
+  background: rgb(110,84,148);
+  background: radial-gradient(circle, rgba(110,84,148,0.3) 0%, rgba(110,84,148,0.3) 100%);
+} */
 .social-button--codepen {
   color: #212121;
 }
