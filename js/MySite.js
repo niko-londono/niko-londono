@@ -17,6 +17,12 @@ button.addEventListener('click', function() {
 });
 /* Boton de enviar */
 
-
+// loader
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+  loader.addEventListener("animationend", () => {
+    document.body.removeChild(loader);
+  });
+});
 
 

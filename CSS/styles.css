@@ -394,3 +394,175 @@ li a.active {
 }
 
 /* loader */
+.loader,
+.loader-pages {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  animation: hide 2.5s linear;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  /* background-color: #000000; */
+  border-radius: 50px;
+  animation: loading 2.75s ease-in-out;
+  text-align: center;
+  justify-content: center;
+}
+
+.circle-img
+{
+    position: relative;
+    margin-top: 30%;
+}
+
+/* Keyframes */
+
+@keyframes dropdown {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hide {
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(2);
+  }
+  40% {
+    transform: scale(1.5);
+  }
+  60% {
+    transform: scale(2);
+  }
+  80% {
+    transform: scale(1.5);
+  }
+  95% {
+    background-color: #88f0c0;
+    opacity: 1;
+  }
+  100% {
+    background-color: transparent;
+    transform: scale(500);
+    opacity: 0;
+  }
+}
+/* loader main*/
+.gegga {
+  width: 0;
+}
+
+.snurra {
+  filter: url(#gegga);
+}
+
+.stopp1 {
+  stop-color: #14e785;
+}
+
+.stopp2 {
+  stop-color: #3a7258;
+}
+
+.halvan {
+  animation: Snurra1 10s infinite linear;
+  stroke-dasharray: 180 800;
+  fill: none;
+  stroke: url(#gradient);
+  stroke-width: 23;
+  stroke-linecap: round;
+}
+
+.strecken {
+  animation: Snurra1 3s infinite linear;
+  stroke-dasharray: 26 54;
+  fill: none;
+  stroke: url(#gradient);
+  stroke-width: 23;
+  stroke-linecap: round;
+}
+
+.skugga {
+  filter: blur(5px);
+  opacity: 0.3;
+  position: absolute;
+  transform: translate(3px, 3px);
+}
+
+@keyframes Snurra1 {
+  0% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: -403px;
+  }
+}
+
+
+/* descarga */
+.button-descarga {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'montserrat', cursive;
+  font-size: 1.2rem;
+}
+
+.button-descarga:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button-descarga::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
