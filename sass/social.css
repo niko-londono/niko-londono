@@ -15,7 +15,7 @@
   height: 64px;
   text-decoration: none;
   border-radius: 100%;
-  background: #e9ecef;
+  background: #fff;
   text-align: center;
 }
 .social-button::after {
@@ -64,19 +64,15 @@
 }
 .social-button--linkedin {
   color: #0077b5;
-  filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.2));
 }
 .social-button--linkedin::after {
-  background: rgb(21,133,219);
-  background: linear-gradient(75deg, rgba(21,133,219,0.6) 0%, rgba(21,133,219,0.4) 36%, rgba(21,133,219,0.2) 100%);
+  background: #0077b5;
 }
 .social-button--github {
   color: #6e5494;
-  filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.2));
 }
 .social-button--github::after {
-  background: rgb(174,101,255);
-  background: linear-gradient(75deg, rgba(174,101,255,0.6) 0%, rgba(174,101,255,0.4) 36%, rgba(174,101,255,0.2) 100%);
+  background: #6e5494;
 }
 .social-button--codepen {
   color: #212121;
@@ -114,4 +110,3 @@
 .social-button--npmjs::after {
   background: #c12127;
 }/*# sourceMappingURL=social.css.map */
-

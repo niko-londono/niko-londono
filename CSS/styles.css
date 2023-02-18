@@ -8,6 +8,11 @@ body
   overflow-x: hidden;
 }
 
+html
+{
+  scroll-behavior: smooth;
+}
+
 p
 {
     color: #495057;
@@ -387,4 +392,5 @@ li a:hover:not(.active) {
 li a.active {
   color: black;
 }
-/* NavBar */
+
+/* loader */
