@@ -1,0 +1,500 @@
+*
+{
+    font-family: 'Montserrat';
+    margin: 0%;
+}
+body
+{
+    overflow-x: hidden;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+a
+{
+    text-decoration: none;
+}
+span
+{
+  color: #2a9d8f;
+}
+
+/* header */
+.menu-bar {
+    background-color: #232425;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    cursor: pointer;
+  }
+  
+  .item.title {
+    font-weight: 600;
+  }
+  
+  .item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #e48780;
+}
+
+/* principal */
+.top-container
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(circle at 16% 83%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 50%,rgba(63, 63, 63,0.06) 50%, rgba(63, 63, 63,0.06) 100%),radial-gradient(circle at 68% 87%, rgba(66, 66, 66,0.06) 0%, rgba(66, 66, 66,0.06) 50%,rgba(105, 105, 105,0.06) 50%, rgba(105, 105, 105,0.06) 100%),radial-gradient(circle at 38% 50%, rgba(123, 123, 123,0.06) 0%, rgba(123, 123, 123,0.06) 50%,rgba(172, 172, 172,0.06) 50%, rgba(172, 172, 172,0.06) 100%),linear-gradient(90deg, hsl(18,0%,1%),hsl(18,0%,1%));
+}
+.top-container p
+{
+    color: #2a9d8f;
+}
+
+.titulo-contenedor
+{
+    position: relative;
+    color: #f8e8e7;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    width: 40vw;
+    padding-top: 30vh;
+}
+
+/* animacion */
+.animacion
+{
+    margin-top: 11%;
+}
+
+.loader {
+    position: relative;
+    width: 120px;
+    height: 90px;
+    margin: 0 auto;
+  }
+  
+  .loader:before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #2a9d8f;
+    animation: loading-bounce 0.5s ease-in-out infinite alternate;
+  }
+  
+  .loader:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 7px;
+    width: 45px;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #f2f2f2, -35px 50px 0 #f2f2f2, -70px 95px 0 #f2f2f2;
+    animation: loading-step 1s ease-in-out infinite;
+  }
+  
+  @keyframes loading-bounce {
+    0% {
+      transform: scale(1, 0.7);
+    }
+  
+    40% {
+      transform: scale(0.8, 1.2);
+    }
+  
+    60% {
+      transform: scale(1, 1);
+    }
+  
+    100% {
+      bottom: 140px;
+    }
+  }
+  
+  @keyframes loading-step {
+    0% {
+      box-shadow: 0 10px 0 rgba(0, 0, 0, 0),
+              0 10px 0 #f2f2f2,
+              -35px 50px 0 #f2f2f2,
+              -70px 90px 0 #f2f2f2;
+    }
+  
+    100% {
+      box-shadow: 0 10px 0 #f2f2f2,
+              -35px 50px 0 #f2f2f2,
+              -70px 90px 0 #f2f2f2,
+              -70px 90px 0 rgba(0, 0, 0, 0);
+    }
+}
+/* animacion 2 */
+.astronauta
+{
+  position: relative;
+  left: 28%;
+  top: 59%;
+  width: 26vw;
+  height: 50vh;
+}
+
+.animacion2
+{
+    position: relative;
+    margin-left: 43vw;
+    margin-top: 73vh;
+}
+.wrapper {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 15%;
+    transform-origin: 50%;
+    animation: circle7124 .5s alternate infinite ease;
+  }
+  
+  @keyframes circle7124 {
+    0% {
+      top: 60px;
+      height: 5px;
+      border-radius: 50px 50px 25px 25px;
+      transform: scaleX(1.7);
+    }
+  
+    40% {
+      height: 20px;
+      border-radius: 50%;
+      transform: scaleX(1);
+    }
+  
+    100% {
+      top: 0%;
+    }
+  }
+  
+  .circle:nth-child(2) {
+    left: 45%;
+    animation-delay: .2s;
+  }
+  
+  .circle:nth-child(3) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+  }
+  
+  .shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 62px;
+    transform-origin: 50%;
+    z-index: -1;
+    left: 15%;
+    filter: blur(1px);
+    animation: shadow046 .5s alternate infinite ease;
+  }
+  
+  @keyframes shadow046 {
+    0% {
+      transform: scaleX(1.5);
+    }
+  
+    40% {
+      transform: scaleX(1);
+      opacity: .7;
+    }
+  
+    100% {
+      transform: scaleX(.2);
+      opacity: .4;
+    }
+  }
+  
+  .shadow:nth-child(4) {
+    left: 45%;
+    animation-delay: .2s
+  }
+  
+  .shadow:nth-child(5) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+}
+  
+/* contacto */
+#contactanos
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #4f5053;
+  padding-top: 4%;
+}
+
+/* footer */
+footer
+{
+    position: relative;
+    background-color: #a6a8b5;
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+}
+
+.informacion
+{
+    margin-top: 5%;
+    text-align: center;
+    color: #4f5053;
+    padding-bottom: 2%;
+}
+
+.footer-titulo
+{
+
+    padding: 2% 0;
+    color: #464545;
+}
+
+.redes
+{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.btn-footer
+{
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn-footer:hover
+{
+    background-color: #4f5053;
+    color: #e48780;
+    cursor: pointer;
+}
+
+.copy
+{
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.titulo-subpaginas
+{
+  color: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* form */
+.form {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  border-radius: 25px;
+  transition: .5s ease-in-out;
+}
+
+.form:hover {
+  transform: scale(1.05);
+  border: 1px solid black;
+}
+
+#heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: white;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button1 {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button2:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.button3 {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button3:hover {
+  background-color: #2a9d8f;
+  color: white;
+  cursor: pointer;
+}
+
+#calcular
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color:#737479;
+}
+
+/* tabla */
+table
+{
+  border-radius: 20px;
+  border-collapse: separate;
+  border-spacing: 30px;
+  filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.3));
+}
+
+table, input
+{
+  background:#171717;
+  color: #f2f2f2;
+}
+
+.r
+{
+  padding-right: 120px;
+}
+
+/* boton calcular */
+.btn-calcular {
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #e6dede;
+  background: #252525;
+  box-shadow: 3px 3px #a59e9e;
+  cursor: pointer;
+  margin: 35px 0;
+}
+
+.btn-calcular:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+.titulo-notas
+{
+  padding-bottom: 5%;
+}
+
+.btn-contenedor
+{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  
+}
