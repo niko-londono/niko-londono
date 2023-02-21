@@ -307,47 +307,64 @@ form input, form textarea
 
 .boton-enviarFormulario
 {
-  margin-right: 61%;
+  margin-left: 11%;
   border: none;
+  cursor: pointer;
 }
 /* contact */
 
 /* Boton de enviar */
-.button {
-  width: 170px;
-  height: 55px;
-  background: dodgerblue;
-  border-radius: 6px;
-  transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
-  margin: 0% 0% 0% 11%;
-}
-
-.button svg {
-  transform: rotate(180deg);
-  transition: all .5s;
-  padding-bottom: 30%;
-  width: 40px;
-  height: 20px;
-}
-
-.button__circle {
-  width: 60px;
-  height: 60px;
-  background: mediumseagreen;
-  border-radius: 50%;
-  transform: rotate(-180deg);
-  margin-right: 100px;
-}
-
-.button:hover {
-  cursor: pointer;
-}
-
-.tick {
+.boton-enviarFormulario {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
   color: white;
-  font-size: 2em;
-  transition: all .9s;
-  padding-top: 6%;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.boton-enviarFormulario span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.boton-enviarFormulario svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.boton-enviarFormulario:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.boton-enviarFormulario:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.boton-enviarFormulario:hover span {
+  transform: translateX(5em);
+}
+
+.boton-enviarFormulario:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
 }
 /* Boton de enviar */
 
@@ -538,6 +555,7 @@ li a.active {
   cursor: pointer;
   font-family: 'montserrat', cursive;
   font-size: 1.2rem;
+  margin-left: -20%;
 }
 
 .button-descarga:hover::before {
