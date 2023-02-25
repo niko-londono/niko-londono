@@ -71,7 +71,6 @@ a
 {
     background: #F5F5F5;
     padding-top: 200px;
-    background-image: url(https://media.giphy.com/media/QTmfvHGklosY1ha87W/giphy.gif); /*cohete*/   
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 2% 19%; 
@@ -98,12 +97,6 @@ a
     top: 395px;
 }
 
-#nube
-{
-    position:absolute;
-    left: 20px;
-    top: 60px;
-}
 
 .Titulo
 {

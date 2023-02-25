@@ -4,6 +4,18 @@ body a, p
     font-family: 'Montserrat';
 }
 
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p
+{
+    color: #8f8f8f;
+    padding: 2%;
+}
+
 #title
 {
     background-color: #ff4c68;
@@ -50,4 +62,98 @@ body a, p
 {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* feature section */
+
+#features
+{
+    padding: 7% 0;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%; 
+}
+
+.icon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+/* Testimonials section*/
+#testimonials
+{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+.testimonials-text
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* .card-deck
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    width: 30%;
+} */
+
+.btn-block
+{
+    width: 100%;
+}
+
+/* pricing */
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
 }
