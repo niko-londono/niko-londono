@@ -20,11 +20,11 @@
     <div>
         <img src="https://img.icons8.com/color/512/c-plus-plus-logo.png" title="C++" alt="C++" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/fluency/512/c-programming.png" title="C" alt="C" width="40" height="40">&nbsp;
-        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" title="Csharp" alt="Csharp" width="30" height="30">&nbsp;
+        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" title="Csharp" alt="Csharp" width="35" height="35">&nbsp;
         <img src="https://img.icons8.com/color/512/python.png" title="Python" alt="Python" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/color/512/html-5.png" title="HTML" alt="HTML" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/color/512/css3.png" title="CSS" alt="CSS" width="40" height="40">&nbsp;
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" title="js" alt="js" width="30" height="30">&nbsp;
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" title="js" alt="js" width="35" height="35">&nbsp;
         <img src="https://img.icons8.com/color/512/microsoft-sql-server.png" title="SQLserver" alt="SQLserver" width="40" height="40">&nbsp;
         <img src="https://avatars.githubusercontent.com/u/1437874?s=280&v=4" title="Looker Studio" alt="Looker Studio" width="40" height="40">&nbsp;
     </div>
