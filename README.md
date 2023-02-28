@@ -20,7 +20,7 @@
     <div>
         <img src="https://img.icons8.com/color/512/c-plus-plus-logo.png" title="C++" alt="C++" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/fluency/512/c-programming.png" title="C" alt="C" width="40" height="40">&nbsp;
-        <img src="https://www.flaticon.com/free-icon/c-sharp_6132221?term=c&page=1&position=1&origin=search&related_id=6132221" title="Csharp" alt="Csharp" width="40"         height="40">&nbsp;
+        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" title="Csharp" alt="Csharp" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/color/512/python.png" title="Python" alt="Python" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/color/512/html-5.png" title="HTML" alt="HTML" width="40" height="40">&nbsp;
         <img src="https://img.icons8.com/color/512/css3.png" title="CSS" alt="CSS" width="40" height="40">&nbsp;
