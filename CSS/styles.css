@@ -133,6 +133,15 @@ a
 
 }
 
+.skills-img
+{
+  transition: 0.3S;
+}
+.skills-img:hover
+{
+  transform: translateY(-3px);
+}
+
 .copyright
 {
   margin-top: 80px;
@@ -576,4 +585,83 @@ li a.active {
     rgba(99, 88, 238, 1) 94.3%
   );
   transition: all 0.475s;
+}
+
+/* media quiery */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) 
+{
+  body
+  {
+    overflow-x: hidden;
+  }
+  .Contact
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-left
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-right
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .cv
+  {
+    margin-left: -30px;
+  }
+  .contact-titulo
+  {
+    font-size: 30px;
+    margin-right: 100px;
+  }
+  form input, form textarea
+  {
+    width: 100%;
+  }
+  .Barra
+  {
+    padding-left: 0;
+  }
+  #flechas
+  {
+    left: 10%;
+  }
+  .Top-container
+  {
+    width: 100%;
+  }
+  .Titulo
+  {
+    margin-left: 100px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+
 }
